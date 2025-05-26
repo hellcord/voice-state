@@ -5,7 +5,7 @@ import env from "./env";
 export const bot = new Client({
   intents: [
     GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildVoiceStates,
+    GatewayIntentBits.GuildVoiceStates
   ]
 });
 
